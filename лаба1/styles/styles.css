@@ -1,0 +1,79 @@
+#main_info {
+    color: #DBA159
+    }
+h2 {
+    color: #DBA159;
+    background-color: #FCFDAF ;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 120%;
+    font-family: 'Courier New', Courier, monospace;
+    }
+.tabla tr:nth-child(odd) {
+    background-color:rgb(242, 170, 47);
+}
+body {
+    background-color: #F7FFDD;
+}
+a {
+    text-decoration: none;
+    color: #EFD780
+}
+.img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 15px black;
+}
+h1 {
+    background-color: #DBA159;
+    padding: 10px;
+    width: 350px;
+    box-sizing: border-box;
+    border: 2px solid;
+}
+.container {
+    margin: auto;
+}
+.soc:hover {
+    color: #D0E3CC;
+}
+.img:hover {
+    transform: scale(110%);
+    transition: transform 0.5s
+}
+section {
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border-radius: 24px;
+    box-shadow: 5px 7px 25px black;
+}
+.links {
+    margin-bottom: 50px;
+}
+.lin {
+    background-color: #DBA159;
+    box-sizing: border-box;
+    border-radius: 24px;
+}
+@media (max-width: 600px) {
+  .page-header {
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+  }
+
+  .content {
+    padding: 24px 18px 48px;
+  }
+
+  .routes-table th,
+  .routes-table td {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
