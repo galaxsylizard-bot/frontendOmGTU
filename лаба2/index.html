@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио фрилансера</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__logo">
+                <img src="img/logo.png" alt="Логотип">
+            </div>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item"><a href="#about" class="header__nav-link">Обо мне</a></li>
+                    <li class="header__nav-item"><a href="#skills" class="header__nav-link">Навыки</a></li>
+                    <li class="header__nav-item"><a href="#portfolio" class="header__nav-link">Портфолио</a></li>
+                    <li class="header__nav-item"><a href="#contact" class="header__nav-link">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero__title">Привет, я фрилансер-дизайнер</h1>
+            <p class="hero__subtitle">Создаю крутые дизайны для вашего бизнеса</p>
+            <a href="#contact" class="hero__button">Связаться</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="about__title">Обо мне</h2>
+            <div class="about__content">
+                <img src="img/about-photo.jpg" alt="Фото" class="about__photo">
+                <p class="about__text">Я дизайнер с 5-летним опытом. Специализируюсь на UI/UX.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="skills__title">Навыки</h2>
+            <ul class="skills__list">
+                <li class="skills__item">
+                    <img src="img/skill-icon1.jpg" alt="Photoshop" class="skills__icon">
+                    <span class="skills__name">Photoshop</span>
+                </li>
+                <li class="skills__item">
+                    <img src="img/skill-icon2.jpg" alt="Illustrator" class="skills__icon">
+                    <span class="skills__name">Illustrator</span>
+                </li>
+                <li class="skills__item">
+                    <img src="img/skill-icon3.jpg" alt="Figma" class="skills__icon">
+                    <span class="skills__name">Figma</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="portfolio__title">Портфолио</h2>
+            <div class="portfolio__grid">
+                <img src="img/portfolio1.jpg" alt="Работа 1" class="portfolio__item">
+                <img src="img/portfolio2.jpg" alt="Работа 2" class="portfolio__item">
+                <img src="img/portfolio3.jpg" alt="Работа 3" class="portfolio__item">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="contact__title">Контакты</h2>
+            <form class="contact__form">
+                <input type="text" placeholder="Имя" class="contact__input">
+                <input type="email" placeholder="Email" class="contact__input">
+                <textarea placeholder="Сообщение" class="contact__textarea"></textarea>
+                <button type="submit" class="contact__button">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__text">&copy; 2025 Фрилансер. Все права защищены.</p>
+            <ul class="footer__links">
+                <li class="footer__link-item"><a href="#" class="footer__link">Twitter</a></li>
+                <li class="footer__link-item"><a href="#" class="footer__link">LinkedIn</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

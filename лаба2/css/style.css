@@ -1,0 +1,238 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.header__logo img {
+    height: 50px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.header__nav-item {
+    margin-left: 20px;
+}
+
+.header__nav-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+.hero {
+    background: url('../img/hero-bg.jpg') no-repeat center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero__title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero__subtitle {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.hero__button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about {
+    padding: 60px 0;
+}
+
+.about__title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about__content {
+    display: flex;
+    align-items: center;
+}
+
+.about__photo {
+    width: 400px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.about__text {
+    font-size: 18px;
+}
+
+.skills {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.skills__title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.skills__list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.skills__item {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.skills__icon {
+    width: 80px;
+    height: 80px;
+}
+
+.skills__name {
+    display: block;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.portfolio {
+    padding: 60px 0;
+}
+
+.portfolio__title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.portfolio__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.portfolio__item {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contact {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.contact__title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact__form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact__input,
+.contact__textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact__button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer__text {
+    margin-bottom: 10px;
+}
+
+.footer__links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.footer__link-item {
+    margin: 0 10px;
+}
+
+.footer__link {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .header__nav {
+        justify-content: center;
+    }
+
+    .header__nav-list {
+        flex-direction: column;
+    }
+
+    .about__content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about__photo {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .skills__list {
+        flex-direction: column;
+    }
+
+    .skills__item {
+        margin-bottom: 20px;
+    }
+}
