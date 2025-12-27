@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#posts {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.post {
+    border: 1px solid #6c96f1;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.post h2 {
+    margin-top: 0;
+}
+
+.post p {
+    margin-bottom: 0;
+}
+
+#loading {
+    text-align: center;
+    font-style: italic;
+}
+
+#error {
+    color: red;
+    text-align: center;
+}
